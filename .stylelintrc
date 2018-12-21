@@ -1,6 +1,8 @@
 {
   "extends": "stylelint-config-standard",
-  "plugins": ["stylelint-order"],
+  "plugins": [
+    "stylelint-order"
+  ],
   "rules": {
     "order/order": [
       "declarations",
@@ -272,7 +274,14 @@
       "widows"
     ],
     "no-empty-source": null,
-    "property-no-vendor-prefix": [true, {"ignoreProperties": ["background-clip"]}],
+    "property-no-vendor-prefix": [
+      true,
+      {
+        "ignoreProperties": [
+          "background-clip"
+        ]
+      }
+    ],
     "number-leading-zero": "never",
     "number-no-trailing-zeros": true,
     "length-zero-no-unit": true,
@@ -287,7 +296,7 @@
     "media-feature-colon-space-after": "always",
     "media-feature-range-operator-space-after": "always",
     "at-rule-name-space-after": "always",
-    "indentation": 2,
+    "indentation": "off",
     "no-eol-whitespace": true,
     "string-no-newline": null
   }

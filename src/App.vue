@@ -24,7 +24,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 #app {
   margin-top: 60px;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
