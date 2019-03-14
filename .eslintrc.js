@@ -66,5 +66,6 @@ module.exports = {
         'one-var': 'off',
         'vue/max-attributes-per-line': 'off',
         'vue/require-default-prop': 'off',
+        'vue/html-self-closing': 'off',
     }
 };
