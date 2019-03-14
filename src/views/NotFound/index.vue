@@ -5,13 +5,15 @@
 
 <template>
     <div>
-        <div>Welcome to the 404 page.</div>
+        <div class="title">
+            <p>Welcome to the 404 page.</p>
+        </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'Index',
+        name: 'NotFound',
         data: () => ({
 
         }),
@@ -25,5 +27,8 @@
 </script>
 
 <style lang="scss" scoped>
-
+    .title {
+        font-size: 20px;
+        text-align: center;
+    }
 </style>

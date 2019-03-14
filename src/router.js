@@ -13,7 +13,7 @@ export default new Router({
     {
       path: '*',
       name: 'NotFound',
-      component: () => import('./views/404'),
+      component: () => import('./views/NotFound'),
     },
   ],
 });
