@@ -61,6 +61,8 @@ module.exports = {
             'error', 4, {
                 'baseIndent': 1
             }
-        ]
+        ],
+        'guard-for-in': 'off',
+        'one-var': 'off',
     }
 };
