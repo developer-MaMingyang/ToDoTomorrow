@@ -65,5 +65,6 @@ module.exports = {
         'guard-for-in': 'off',
         'one-var': 'off',
         'vue/max-attributes-per-line': 'off',
+        'vue/require-default-prop': 'off',
     }
 };
