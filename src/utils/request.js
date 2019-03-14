@@ -74,7 +74,7 @@ axios.interceptors.response.use(response => response, (err) => {
   return Promise.resolve(err.response);
 });
 
-axios.defaults.baseURL = '/apis';
+axios.defaults.baseURL = '/';
 
 axios.defaults.headers = {
   'X-Requested-With': 'XMLHttpRequest',
