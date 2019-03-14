@@ -1,4 +1,4 @@
-# ToDoTomorrow
+# Vue Project Template
 
 ## Project setup
 ```
